@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gloria-pietropolli.github.io/sitemap.xml
+Sitemap: https://gpietrop.github.io/sitemap.xml
