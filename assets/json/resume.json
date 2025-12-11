@@ -1,11 +1,5 @@
 {
-  "basics": {
-    "name": "Gloria Pietropolli",
-    "label": "Postdoctoral research fellow ",
-    "image": "",
-    "email": "gloria.pietropolli@units.it"
-  },
-  "education": [
+  "glo": [
     {
       "institution": "University of Trieste, Trieste, Italy",
       "location": "Trieste, Italy",
@@ -16,20 +10,20 @@
       "endDate": "2024-03-21"
     },
     {
-      "institution": "University of Padua, Padue, Italy",
+      "institution": "University of Padua, Padua, Italy",
       "location": "Padua, Italy",
-      "url": "https://www.unipd.it/en/",
+      "url": "https://matematica.math.unipd.it/en/master/",
       "studyType": "Master in Mathematics",
       "startDate": "2018-10-01",
       "endDate": "2020-07-17"
     },
     {
-      "institution": "University of Padua, Padue, Italy",
+      "institution": "University of Padua, Padua, Italy",
       "location": "Padua, Italy",
-      "url": "https://www.unipd.it/en/",
+      "url": "https://matematica.math.unipd.it/en/bachelor/",
       "studyType": "Bachelor in Mathematics",
-      "startDate": "2018-10-01",
-      "endDate": "2020-07-17"
+      "startDate": "2015-10-01",
+      "endDate": "2018-07-20"
     }
   ],
   "awards": [
