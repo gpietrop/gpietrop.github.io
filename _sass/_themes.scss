@@ -6,20 +6,26 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  /* Backgrounds */
+  --global-bg-color: #F4FFF7; // soft mint green
+  --global-card-bg-color: #FFFFFF;
+  /* Text */
+  --global-text-color: #000000;
+  --global-text-color-light: #666666;
+  /* Theme / Titles / Links */
+  --global-theme-color: #2E7D32;
+  --global-hover-color: #388E3C;
+  --global-hover-text-color: #FFFFFF;
+  /* Footer */
+  --global-footer-bg-color: #1B5E20;
+  --global-footer-text-color: #C8E6C9;
+  --global-footer-link-color: #FFFFFF;
+  /* Distill app */
+  --global-distill-app-color: #4CAF50;
+  --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
+  /* Highlights */
+  --global-highlight-color: #66BB6A;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -27,8 +33,9 @@
     0.4
   );
   --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  /* Newsletter */
+  --global-newsletter-bg-color: #FFFFFF;
+  --global-newsletter-text-color: #000000;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
