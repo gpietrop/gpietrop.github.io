@@ -6,60 +6,92 @@
 
 :root {
   color-scheme: light;
-  /* Backgrounds */
-  --global-bg-color: #F4FFF7; // soft mint green
+
+  /* =====================
+     Backgrounds
+     ===================== */
+  --global-bg-color: #FBFAF7;        // panna tendente al bianco
   --global-card-bg-color: #FFFFFF;
-  /* Text */
-  --global-text-color: #000000;
-  --global-text-color-light: #666666;
-  /* Theme / Titles / Links */
-  --global-theme-color: #2E7D32;
-  --global-hover-color: #388E3C;
+
+  /* =====================
+     Text
+     ===================== */
+  --global-text-color: #1E1E1E;
+  --global-text-color-light: #555555;
+
+  /* Font sizes (più grandi) */
+  --global-font-size: 18px;
+  --global-line-height: 1.65;
+  --global-title-font-size: 1.35em;
+
+  /* =====================
+     Theme / Titles / Links
+     ===================== */
+  --global-theme-color: #3A7F6B;      // verde elegante (salvia/emerald)
+  --global-hover-color: #2F6E5C;
   --global-hover-text-color: #FFFFFF;
-  /* Footer */
-  --global-footer-bg-color: #1B5E20;
-  --global-footer-text-color: #C8E6C9;
+
+  /* =====================
+     Footer
+     ===================== */
+  --global-footer-bg-color: #2F6E5C;
+  --global-footer-text-color: #E6F2EE;
   --global-footer-link-color: #FFFFFF;
-  /* Distill app */
-  --global-distill-app-color: #4CAF50;
-  --global-divider-color: rgba(0, 0, 0, 0.08);
-  --global-card-bg-color: #{$white-color};
-  /* Highlights */
-  --global-highlight-color: #66BB6A;
+
+  /* =====================
+     Distill app
+     ===================== */
+  --global-distill-app-color: #4FAE95;
+
+  --global-divider-color: rgba(0, 0, 0, 0.07);
+
+  /* =====================
+     Highlights
+     ===================== */
+  --global-highlight-color: #7FC8B2;
+
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
     #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
+    0.35
   );
   --global-back-to-top-text-color: #{$white-color};
-  /* Newsletter */
+
+  /* =====================
+     Newsletter
+     ===================== */
   --global-newsletter-bg-color: #FFFFFF;
-  --global-newsletter-text-color: #000000;
+  --global-newsletter-text-color: #1E1E1E;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  /* =====================
+     Blocks
+     ===================== */
+  --global-tip-block: #3A7F6B;
+  --global-tip-block-bg: #EAF4F1;
+  --global-tip-block-text: #1F4F43;
+  --global-tip-block-title: #2F6E5C;
 
+  --global-warning-block: #D6A800;
+  --global-warning-block-bg: #FFF6D6;
+  --global-warning-block-text: #5E4E00;
+  --global-warning-block-title: #B08C00;
+
+  --global-danger-block: #B00020;
+  --global-danger-block-bg: #FFE4E7;
+  --global-danger-block-text: #5A0010;
+  --global-danger-block-title: #8C0018;
+
+  /* =====================
+     Light toggle
+     ===================== */
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
     display: block;
   }
 
-  #light-toggle-dark {
-    display: none;
-  }
-
+  #light-toggle-dark,
   #light-toggle-light {
     display: none;
   }
@@ -67,6 +99,8 @@
   .only-light {
     display: block;
   }
+}
+
 
   .only-dark {
     display: none;
