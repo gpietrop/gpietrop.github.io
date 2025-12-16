@@ -53,9 +53,6 @@ ninja.data = [{
             },},{id: "news-i-defended-my-ph-d-i-am-now-a-postdoctoral-researcher-at-university-of-trieste",
           title: 'I defended my Ph.D. I am now a postdoctoral researcher at University of...',
           description: "",
-          section: "News",},{id: "news-i-was-invited-lecturer-for-the-course-of-deep-learning-at-the-nova-university-lisbon",
-          title: 'I was invited lecturer for the course of Deep Learning at the NOVA...',
-          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
