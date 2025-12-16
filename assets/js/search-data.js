@@ -57,8 +57,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-defended-my-ph-d-i-am-now-a-postdoctoral-researcher-at-university-of-trieste",
-          title: 'I defended my Ph.D. I am now a postdoctoral researcher at University of...',
+            },},{id: "news-i-defended-my-phd-and-i-am-now-a-postdoctoral-researcher-at-the-university-of-trieste",
+          title: 'I defended my PhD and I am now a postdoctoral researcher at the...',
+          description: "",
+          section: "News",},{id: "news-i-was-invited-to-serve-as-a-guest-lecturer-for-the-phd-course-on-deep-learning-at-nova-university",
+          title: 'I was invited to serve as a guest lecturer for the PhD course...',
+          description: "",
+          section: "News",},{id: "news-i-participated-in-the-workshop-learned-methods-for-operations-research-at-cwi-in-amsterdam-as-an-invited-participant",
+          title: 'I participated in the workshop Learned Methods for Operations Research at CWI in...',
           description: "",
           section: "News",},{
         id: 'social-cv',
