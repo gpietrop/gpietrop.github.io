@@ -2,7 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Here you can find a list of my publications together with the paper PDFs. Feel free to reach out to me if you are looking for publications that are not yet present in this list.
+description: Here you can find a list of my publications along with the corresponding PDFs. Feel free to reach out if any publication is missing from the list.
+nav: true
 nav_order: 2
 ---
 
