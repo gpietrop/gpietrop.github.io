@@ -71,7 +71,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/ScientificCV_Pietropolli.pdf", "_blank");
         },
       },{
         id: 'social-email',
