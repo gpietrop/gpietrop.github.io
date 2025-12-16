@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I participated in the workshop Learned Methods for Operations Research at CWI in Amsterdam as an invited participant.
+I was invited to the workshop *[Learned Methods for Operations Research](https://www.cwi.nl/en/events/learned-methods-for-operations-research)* at [CWI](https://www.cwi.nl/) in Amsterdam.
