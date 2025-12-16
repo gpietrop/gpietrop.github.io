@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I defended my Ph.D. I am now a postdoctoral researcher at University of Trieste
+I defended my PhD and I am now a postdoctoral researcher at the University of Trieste.
