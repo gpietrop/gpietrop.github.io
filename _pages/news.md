@@ -1,6 +1,6 @@
 ---
 layout: page
-title: news
+title: news (from 2025 onward)
 permalink: /news/
 ---
 
