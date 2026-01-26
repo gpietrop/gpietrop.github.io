@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'> gloria.pietropolli@units.it </a>
+subtitle: <a href='#'> gloria.pietropolli@cwi.nl </a>
 
 profile:
   align: right
@@ -22,11 +22,10 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a postdoctoral fellow at the [University of Trieste](https://www.units.it/) in computer science, working on interpretable machine learning and automated model discovery.
+I am a computer science postdoctoral fellow in the [Evolutionary Intelligence Group](https://www.cwi.nl/en/research/evolutionary-intelligence/), [Centrum Wiskunde & Informatica (CWI)](https://www.cwi.nl/en/).
+My research focuses on the development of explainable decision models for clinical risk prediction, carried out within the [FH-EARLY](https://fh-early.eu/) project in collaboration with clinicians at [Leiden University Medical Center (LUMC)](https://www.lumc.nl/).
 
-My research spans multiple application domains; a brief overview is available in my CV, which you can download from the link below. I also apply machine learning to environmental and oceanographic sciences, developing deep learning models for biogeochemical data in collaboration with the [OGS](https://www.ogs.it/).
-
-I enjoy working across disciplines and collaborating with researchers from diverse fields. If you are interested in working together, feel free to reach out.
-
+I enjoy working across disciplines and collaborating with researchers from diverse fields, as you can see from my CV, which you can download from the link below. 
+If you are interested in working together, feel free to reach out.
 
 
