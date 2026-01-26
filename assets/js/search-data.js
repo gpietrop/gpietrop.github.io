@@ -50,7 +50,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-defended-my-phd-and-i-am-now-a-postdoctoral-researcher-at-the-university-of-trieste",
+            },},{id: "news-i-started-my-postoctoral-research-position-at-centrum-wiskunde-amp-amp-informatica-cwi",
+          title: 'I started my postoctoral research position at Centrum Wiskunde &amp;amp;amp; Informatica (CWI).',
+          description: "",
+          section: "News",},{id: "news-i-defended-my-phd-and-i-am-now-a-postdoctoral-researcher-at-the-university-of-trieste",
           title: 'I defended my PhD and I am now a postdoctoral researcher at the...',
           description: "",
           section: "News",},{id: "news-i-am-serving-as-local-chair-for-evostar-2025-which-will-be-held-in-trieste",
@@ -77,7 +80,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%67%6C%6F%72%69%61.%70%69%65%74%72%6F%70%6F%6C%6C%69@%75%6E%69%74%73.%69%74", "_blank");
+          window.open("mailto:%67%6C%6F%72%69%61.%70%69%65%74%72%6F%70%6F%6C%6C%69@%63%77%69.%6E%6C", "_blank");
         },
       },{
         id: 'social-github',
