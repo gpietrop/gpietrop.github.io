@@ -50,10 +50,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-started-my-postoctoral-research-position-at-centrum-wiskunde-amp-amp-informatica-cwi",
-          title: 'I started my postoctoral research position at Centrum Wiskunde &amp;amp;amp; Informatica (CWI).',
-          description: "",
-          section: "News",},{id: "news-i-defended-my-phd-and-i-am-now-a-postdoctoral-researcher-at-the-university-of-trieste",
+            },},{id: "news-i-defended-my-phd-and-i-am-now-a-postdoctoral-researcher-at-the-university-of-trieste",
           title: 'I defended my PhD and I am now a postdoctoral researcher at the...',
           description: "",
           section: "News",},{id: "news-i-am-serving-as-local-chair-for-evostar-2025-which-will-be-held-in-trieste",
@@ -67,6 +64,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-was-invited-to-the-workshop-learned-methods-for-operations-research-at-cwi-in-amsterdam",
           title: 'I was invited to the workshop Learned Methods for Operations Research at CWI...',
+          description: "",
+          section: "News",},{id: "news-i-started-my-postoctoral-research-position-at-centrum-wiskunde-amp-amp-informatica-cwi",
+          title: 'I started my postoctoral research position at Centrum Wiskunde &amp;amp;amp; Informatica (CWI).',
           description: "",
           section: "News",},{
         id: 'social-cv',
