@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-30'
+  last_updated: '2026-02-16'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
-    citations: 12
+    citations: 13
     title: On the hybridization of geometric semantic GP with gradient-based optimizers
     year: '2023'
   -iUZFA4AAAAJ:2osOgNQ5qMEC:
@@ -15,7 +15,7 @@ papers:
     year: '2024'
   -iUZFA4AAAAJ:4DMP91E08xMC:
     citations: 1
-    title: Exploring the Integration of Cellular Structures in Genetic Programming-Based Methods
+    title: Exploring the integration of cellular structures in genetic programming-based methods
     year: '2025'
   -iUZFA4AAAAJ:5nxA0vEk-isC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 29
+    citations: 31
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:IWHjjKOFINEC:
@@ -38,7 +38,7 @@ papers:
     title: Policy Search through Genetic Programming and LLM-assisted Curriculum Learning
     year: '2025'
   -iUZFA4AAAAJ:KlAtU1dfN6UC:
-    citations: 1
+    citations: 2
     title: Genetic Programming for the Reconstruction of Delay Differential Equations in Economics
     year: '2024'
   -iUZFA4AAAAJ:L8Ckcad2t8MC:
@@ -66,23 +66,23 @@ papers:
     title: Machine Learning methods for the Atmosphere, the Ocean, and the Seabed.
     year: '2023'
   -iUZFA4AAAAJ:Tyk-4Ss8FVUC:
-    citations: 8
+    citations: 9
     title: "A self-adaptive approach to exploit topological properties of different gas\u2019 crossover operators"
     year: '2023'
   -iUZFA4AAAAJ:ULOm3_A8WrAC:
     citations: 0
-    title: 'Slim: a Python Library for the non-bloating SLIM-GSGP algorithm'
-    year: Unknown Year
+    title: Slim
+    year: '2024'
   -iUZFA4AAAAJ:UeHWp8X0CEIC:
     citations: 11
     title: GANs for integration of deterministic model and observations in marine ecosystem
     year: '2022'
   -iUZFA4AAAAJ:Wp0gIr-vW9MC:
     citations: 1
-    title: Exploring the Impact of Data Scale on Mutation Step Size in SLIM-GSGP
+    title: Exploring the impact of data scale on mutation step size in SLIM-GSGP
     year: '2025'
   -iUZFA4AAAAJ:Y0pCki6q_DkC:
-    citations: 8
+    citations: 9
     title: Multivariate relationship in big data collection of ocean observing system
     year: '2023'
   -iUZFA4AAAAJ:YOwf2qJgpHMC:
@@ -94,7 +94,7 @@ papers:
     title: 'GLOBIO: Bridging Global and Local Scales for Biogeochemical Profiles Prediction'
     year: '2025'
   -iUZFA4AAAAJ:Zph67rFs4hoC:
-    citations: 0
+    citations: 1
     title: 'PPCon 1.0: Biogeochemical-Argo profile prediction with 1D convolutional networks'
     year: '2024'
   -iUZFA4AAAAJ:_FxGoFyzp5QC:
@@ -107,7 +107,7 @@ papers:
     year: '2025'
   -iUZFA4AAAAJ:aqlVkmm33-oC:
     citations: 5
-    title: Introducing Crossover in SLIM-GSGP
+    title: Introducing crossover in slim-gsgp
     year: '2025'
   -iUZFA4AAAAJ:dhFuZR0502QC:
     citations: 1
@@ -122,26 +122,30 @@ papers:
     title: A novel bio-inspired encoding for evolving cryptographic Boolean functions
     year: '2026'
   -iUZFA4AAAAJ:hqOjcs7Dif8C:
-    citations: 4
-    title: 'Ppcon 1.0: Biogeochemical argo profile prediction with 1d convolutional networks'
+    citations: 3
+    title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
-    citations: 18
+    citations: 19
     title: Large language model-based test case generation for gp agents
     year: '2024'
+  -iUZFA4AAAAJ:mB3voiENLucC:
+    citations: 0
+    title: 'Automated specification search for composite-based structural equation modeling: A genetic approach'
+    year: '2026'
   -iUZFA4AAAAJ:qUcmZB5y_30C:
     citations: 0
     title: Semantic-based recombination and mutation in cellular-inspired genetic programming
     year: '2025'
   -iUZFA4AAAAJ:roLk4NBRz8UC:
-    citations: 10
-    title: A grammatical evolution approach to the automatic inference of P systems
+    citations: 11
+    title: 'A grammatical evolution approach to the automatic inference of P systems: G. Nadizar, G. Pietropolli'
     year: '2023'
   -iUZFA4AAAAJ:ufrVoPGSRksC:
     citations: 2
     title: Combining Neural Networks and Data Assimilation to enhance the spatial impact of Argo floats in the Copernicus Mediterranean biogeochemical model
     year: '2023'
   -iUZFA4AAAAJ:zYLM7Y9cAGgC:
-    citations: 11
+    citations: 12
     title: 'Inferring P systems from their computing steps: An evolutionary approach'
     year: '2023'
