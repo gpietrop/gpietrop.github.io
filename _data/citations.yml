@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-02-18'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 13
@@ -34,7 +34,7 @@ papers:
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:IWHjjKOFINEC:
-    citations: 1
+    citations: 2
     title: Policy Search through Genetic Programming and LLM-assisted Curriculum Learning
     year: '2025'
   -iUZFA4AAAAJ:KlAtU1dfN6UC:
@@ -126,7 +126,7 @@ papers:
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
-    citations: 19
+    citations: 20
     title: Large language model-based test case generation for gp agents
     year: '2024'
   -iUZFA4AAAAJ:mB3voiENLucC:
