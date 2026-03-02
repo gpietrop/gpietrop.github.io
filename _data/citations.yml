@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-03-02'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
-    citations: 13
+    citations: 14
     title: On the hybridization of geometric semantic GP with gradient-based optimizers
     year: '2023'
   -iUZFA4AAAAJ:2osOgNQ5qMEC:
-    citations: 2
+    citations: 3
     title: The effect of multi-generational selection in geometric semantic genetic programming
     year: '2022'
   -iUZFA4AAAAJ:3fE2CSJIrl8C:
@@ -22,17 +22,21 @@ papers:
     title: MACHINE LEARNING APPLICATIONS TO DATA RECONSTRUCTION IN MARINE BIOGEOCHEMISTRY.
     year: '2024'
   -iUZFA4AAAAJ:8k81kl-MbHgC:
-    citations: 10
+    citations: 11
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
-    citations: 2
+    citations: 3
     title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 31
+    citations: 32
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
+  -iUZFA4AAAAJ:HDshCWvjkbEC:
+    citations: 0
+    title: 'Two-phase CNN for model data fusion: Predicting 3D chlorophyll-a in the Mediterranean Sea'
+    year: '2026'
   -iUZFA4AAAAJ:IWHjjKOFINEC:
     citations: 2
     title: Policy Search through Genetic Programming and LLM-assisted Curriculum Learning
@@ -46,15 +50,15 @@ papers:
     title: A study on the dynamics and effectiveness of the deflate geometric semantic mutation
     year: '2025'
   -iUZFA4AAAAJ:LkGwnXOMwfcC:
-    citations: 11
+    citations: 12
     title: Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent.
     year: '2023'
   -iUZFA4AAAAJ:M3ejUd6NZC8C:
-    citations: 0
+    citations: 1
     title: Convolutional neural networks for chlorophyll prediction in the Mediterranean Sea
     year: '2025'
   -iUZFA4AAAAJ:MXK_kJrjxJIC:
-    citations: 7
+    citations: 8
     title: Combining neural networks and data assimilation to enhance the spatial impact of Argo floats in the Copernicus Mediterranean biogeochemical model
     year: '2024'
   -iUZFA4AAAAJ:QIV2ME_5wuYC:
@@ -66,7 +70,7 @@ papers:
     title: Machine Learning methods for the Atmosphere, the Ocean, and the Seabed.
     year: '2023'
   -iUZFA4AAAAJ:Tyk-4Ss8FVUC:
-    citations: 9
+    citations: 10
     title: "A self-adaptive approach to exploit topological properties of different gas\u2019 crossover operators"
     year: '2023'
   -iUZFA4AAAAJ:ULOm3_A8WrAC:
@@ -74,15 +78,15 @@ papers:
     title: Slim
     year: '2024'
   -iUZFA4AAAAJ:UeHWp8X0CEIC:
-    citations: 11
+    citations: 12
     title: GANs for integration of deterministic model and observations in marine ecosystem
     year: '2022'
   -iUZFA4AAAAJ:Wp0gIr-vW9MC:
-    citations: 1
+    citations: 3
     title: Exploring the impact of data scale on mutation step size in SLIM-GSGP
     year: '2025'
   -iUZFA4AAAAJ:Y0pCki6q_DkC:
-    citations: 9
+    citations: 10
     title: Multivariate relationship in big data collection of ocean observing system
     year: '2023'
   -iUZFA4AAAAJ:YOwf2qJgpHMC:
@@ -90,11 +94,11 @@ papers:
     title: Automated Specification Search for Composite-Based SEM
     year: '2025'
   -iUZFA4AAAAJ:ZeXyd9-uunAC:
-    citations: 0
+    citations: 1
     title: 'GLOBIO: Bridging Global and Local Scales for Biogeochemical Profiles Prediction'
     year: '2025'
   -iUZFA4AAAAJ:Zph67rFs4hoC:
-    citations: 1
+    citations: 2
     title: 'PPCon 1.0: Biogeochemical-Argo profile prediction with 1D convolutional networks'
     year: '2024'
   -iUZFA4AAAAJ:_FxGoFyzp5QC:
@@ -102,11 +106,11 @@ papers:
     title: A genetic programming based heuristic to simplify rugged landscapes exploration
     year: '2023'
   -iUZFA4AAAAJ:_kc_bZDykSQC:
-    citations: 14
+    citations: 15
     title: Exploring non-bloating geometric semantic genetic programming
     year: '2025'
   -iUZFA4AAAAJ:aqlVkmm33-oC:
-    citations: 5
+    citations: 7
     title: Introducing crossover in slim-gsgp
     year: '2025'
   -iUZFA4AAAAJ:dhFuZR0502QC:
