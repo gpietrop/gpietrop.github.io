@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-03-20'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -22,7 +22,7 @@ papers:
     title: MACHINE LEARNING APPLICATIONS TO DATA RECONSTRUCTION IN MARINE BIOGEOCHEMISTRY.
     year: '2024'
   -iUZFA4AAAAJ:8k81kl-MbHgC:
-    citations: 11
+    citations: 12
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
@@ -62,7 +62,7 @@ papers:
     title: Combining neural networks and data assimilation to enhance the spatial impact of Argo floats in the Copernicus Mediterranean biogeochemical model
     year: '2024'
   -iUZFA4AAAAJ:QIV2ME_5wuYC:
-    citations: 1
+    citations: 2
     title: Evolving Cryptographic Boolean Functions with Reaction Systems
     year: '2025'
   -iUZFA4AAAAJ:Se3iqnhoufwC:
@@ -150,6 +150,6 @@ papers:
     title: Combining Neural Networks and Data Assimilation to enhance the spatial impact of Argo floats in the Copernicus Mediterranean biogeochemical model
     year: '2023'
   -iUZFA4AAAAJ:zYLM7Y9cAGgC:
-    citations: 12
+    citations: 13
     title: 'Inferring P systems from their computing steps: An evolutionary approach'
     year: '2023'
