@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-03-25'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 14
     title: On the hybridization of geometric semantic GP with gradient-based optimizers
     year: '2023'
   -iUZFA4AAAAJ:2osOgNQ5qMEC:
-    citations: 3
+    citations: 4
     title: The effect of multi-generational selection in geometric semantic genetic programming
     year: '2022'
   -iUZFA4AAAAJ:3fE2CSJIrl8C:
@@ -26,11 +26,11 @@ papers:
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
-    citations: 3
+    citations: 4
     title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 32
+    citations: 33
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:HDshCWvjkbEC:
@@ -50,7 +50,7 @@ papers:
     title: A study on the dynamics and effectiveness of the deflate geometric semantic mutation
     year: '2025'
   -iUZFA4AAAAJ:LkGwnXOMwfcC:
-    citations: 12
+    citations: 13
     title: Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent.
     year: '2023'
   -iUZFA4AAAAJ:M3ejUd6NZC8C:
@@ -102,15 +102,15 @@ papers:
     title: 'PPCon 1.0: Biogeochemical-Argo profile prediction with 1D convolutional networks'
     year: '2024'
   -iUZFA4AAAAJ:_FxGoFyzp5QC:
-    citations: 6
+    citations: 7
     title: A genetic programming based heuristic to simplify rugged landscapes exploration
     year: '2023'
   -iUZFA4AAAAJ:_kc_bZDykSQC:
-    citations: 15
+    citations: 16
     title: Exploring non-bloating geometric semantic genetic programming
     year: '2025'
   -iUZFA4AAAAJ:aqlVkmm33-oC:
-    citations: 7
+    citations: 8
     title: Introducing crossover in slim-gsgp
     year: '2025'
   -iUZFA4AAAAJ:dhFuZR0502QC:
