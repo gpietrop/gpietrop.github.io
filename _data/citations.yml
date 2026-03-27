@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-03-27'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 14
@@ -126,7 +126,7 @@ papers:
     title: A novel bio-inspired encoding for evolving cryptographic Boolean functions
     year: '2026'
   -iUZFA4AAAAJ:hqOjcs7Dif8C:
-    citations: 3
+    citations: 4
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
