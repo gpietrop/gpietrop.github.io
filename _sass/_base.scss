@@ -734,11 +734,14 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: color-mix(in srgb, var(--global-text-color) 88%, var(--global-theme-color) 12%);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
-    text-align: right;
+    padding-top: 1.25rem;
+    margin-top: 2.75rem;
+    text-align: left;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
   }
 
   ol.bibliography {
@@ -747,22 +750,36 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0;
+      padding: 1.35rem 0 1.5rem;
+      border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 90%, var(--global-theme-color) 10%);
 
-      .preview {
+      .publication-entry {
+        align-items: flex-start;
+        row-gap: 0.75rem;
       }
 
       .abbr {
         margin-bottom: 0.5rem;
+        padding-top: 0.15rem;
 
-        abbr {
+        .publication-venue {
+          --publication-venue-color: var(--global-theme-color);
           display: inline-block;
-          background-color: var(--global-theme-color);
+          width: auto;
+          min-width: 0;
+          background-color: color-mix(in srgb, var(--publication-venue-color) 8%, var(--global-card-bg-color) 92%);
+          border: 1px solid color-mix(in srgb, var(--publication-venue-color) 28%, var(--global-card-bg-color) 72%);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          padding: 0.35rem 0.75rem;
+          color: color-mix(in srgb, var(--publication-venue-color) 68%, var(--global-text-color) 32%) !important;
+          font-size: 0.72rem;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
 
           a {
-            color: white;
+            color: inherit;
 
             &:hover {
               text-decoration: none;
@@ -777,16 +794,26 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-size: 1.1rem;
+        line-height: 1.4;
+        font-weight: 600;
+        color: var(--global-text-color);
+        margin-bottom: 0.35rem;
       }
 
       .author {
+        margin-bottom: 0.35rem;
+        color: color-mix(in srgb, var(--global-text-color-light) 92%, var(--global-text-color) 8%);
+        line-height: 1.6;
+
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: inherit;
+          border-bottom: 1px dashed color-mix(in srgb, var(--global-theme-color) 45%, var(--global-card-bg-color) 55%);
 
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
+            color: var(--global-text-color);
           }
         }
 
@@ -807,21 +834,57 @@ footer.sticky-bottom {
         }
       }
 
+      .periodical {
+        color: color-mix(in srgb, var(--global-text-color) 82%, var(--global-theme-color) 18%);
+        line-height: 1.55;
+      }
+
+      .publication-note {
+        color: color-mix(in srgb, var(--global-text-color-light) 94%, var(--global-text-color) 6%);
+        font-size: 0.94rem;
+        margin-top: 0.15rem;
+      }
+
       .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.55rem;
+        margin-top: 0.9rem;
+
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          color: color-mix(in srgb, var(--global-text-color-light) 92%, var(--global-text-color) 8%);
+          border: 1px solid color-mix(in srgb, var(--global-divider-color) 75%, var(--global-theme-color) 25%);
+          border-radius: 999px;
+          background: color-mix(in srgb, var(--global-card-bg-color) 97%, var(--global-theme-color) 3%);
+          padding-left: 0.85rem;
+          padding-right: 0.85rem;
+          padding-top: 0.35rem;
+          padding-bottom: 0.35rem;
           margin-left: 0;
+          font-size: 0.78rem;
+          letter-spacing: 0.02em;
+          transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
 
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            background-color: color-mix(in srgb, var(--global-theme-color) 10%, var(--global-card-bg-color) 90%);
+            transform: translateY(-1px);
           }
         }
+
+        a.primary-link.btn {
+          color: color-mix(in srgb, var(--global-text-color) 18%, white 82%);
+          border-color: color-mix(in srgb, var(--global-theme-color) 65%, var(--global-card-bg-color) 35%);
+          background: color-mix(in srgb, var(--global-theme-color) 84%, white 16%);
+
+          &:hover {
+            color: var(--global-hover-text-color);
+            background: color-mix(in srgb, var(--global-hover-color) 88%, white 12%);
+            border-color: color-mix(in srgb, var(--global-hover-color) 70%, var(--global-card-bg-color) 30%);
+          }
+        }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -875,7 +938,10 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 0.85rem;
+        margin-top: 0.85rem;
+        background: color-mix(in srgb, var(--global-card-bg-color) 97%, var(--global-theme-color) 3%);
       }
 
       div.abstract.hidden.open {
@@ -883,11 +949,30 @@ footer.sticky-bottom {
       }
     }
     div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 0.85rem;
+      margin-top: 0.85rem;
     }
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
+  }
+}
+
+.bibsearch-form-input {
+  color: color-mix(in srgb, var(--global-newsletter-text-color) 92%, var(--global-text-color) 8%);
+  background: color-mix(in srgb, var(--global-newsletter-bg-color) 98%, var(--global-theme-color) 2%);
+  border: 1px solid color-mix(in srgb, var(--global-divider-color) 70%, var(--global-theme-color) 30%);
+  max-width: 420px;
+  border-radius: 999px;
+  padding: 0.8rem 1rem;
+  box-shadow: rgba(15, 23, 42, 0.04) 0px 6px 16px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+  &:focus {
+    border-color: color-mix(in srgb, var(--global-theme-color) 55%, var(--global-card-bg-color) 45%) !important;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--global-theme-color) 10%, transparent);
+    background: var(--global-newsletter-bg-color);
   }
 }
 

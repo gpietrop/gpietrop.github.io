@@ -1,16 +1,16 @@
 ---
 ---
-<div class="row">
+<div class="row publication-entry">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="--publication-venue-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded w-100"
+            class="badge rounded-pill publication-venue w-100"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -22,7 +22,7 @@
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+          <abbr class="badge rounded-pill publication-venue w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
       {% if entry.preview %}
@@ -181,12 +181,15 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% assign entry_note = entry.note | strip %}
+    {% if entry_note != '' %}
+      <div class="periodical publication-note">
+        {{ entry_note }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
-    <div class="links">
+    <div class="links publication-links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -213,9 +216,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0 primary-link" role="button">PDF</a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0 primary-link" role="button">PDF</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
