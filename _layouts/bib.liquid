@@ -160,11 +160,16 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% if entry.month %}
+    {% if entry.month and entry.type != 'article' %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+    {% endif %}
+    {% assign entry_bibtex = entry.bibtex | strip %}
+    {% assign entry_has_bibtex = false %}
+    {% if entry_bibtex != '' %}
+      {% assign entry_has_bibtex = true %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
@@ -204,7 +209,7 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
-      {% if entry.bibtex_show %}
+      {% if entry_has_bibtex %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
       {% if entry.html %}
@@ -374,7 +379,7 @@
       </div>
     {% endif %}
 
-    {% if entry.bibtex_show %}
+    {% if entry_has_bibtex %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}
