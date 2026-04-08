@@ -7,25 +7,25 @@
 :root {
   color-scheme: light;
   /* Backgrounds */
-  --global-bg-color: #FFFDF2; // soft mint green
-  --global-card-bg-color: #FFFFFF;
+  --global-bg-color: #fffdf2; // soft mint green
+  --global-card-bg-color: #ffffff;
   /* Text */
   --global-text-color: #000000;
   --global-text-color-light: #444444;
   /* Theme / Titles / Links */
-  --global-theme-color: #2E7D32;
-  --global-hover-color: #388E3C;
-  --global-hover-text-color: #FFFFFF;
+  --global-theme-color: #2e7d32;
+  --global-hover-color: #388e3c;
+  --global-hover-text-color: #ffffff;
   /* Footer */
-  --global-footer-bg-color: #1B5E20;
-  --global-footer-text-color: #C8E6C9;
-  --global-footer-link-color: #FFFFFF;
+  --global-footer-bg-color: #1b5e20;
+  --global-footer-text-color: #c8e6c9;
+  --global-footer-link-color: #ffffff;
   /* Distill app */
-  --global-distill-app-color: #4CAF50;
+  --global-distill-app-color: #4caf50;
   --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{$white-color};
   /* Highlights */
-  --global-highlight-color: #66BB6A;
+  --global-highlight-color: #66bb6a;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -34,7 +34,7 @@
   );
   --global-back-to-top-text-color: #{$white-color};
   /* Newsletter */
-  --global-newsletter-bg-color: #FFFFFF;
+  --global-newsletter-bg-color: #ffffff;
   --global-newsletter-text-color: #000000;
 
   --global-tip-block: #42b983;

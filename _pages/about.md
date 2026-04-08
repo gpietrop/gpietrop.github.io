@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: # >
+  more_info:# >
     # <p>555 your office number</p>
     # <p>123 your address street</p>
     # <p>Your City, State 12345</p>
@@ -25,7 +25,5 @@ announcements:
 I am a computer science postdoctoral fellow in the [Evolutionary Intelligence Group](https://www.cwi.nl/en/research/evolutionary-intelligence/), [Centrum Wiskunde & Informatica (CWI)](https://www.cwi.nl/en/).
 My research focuses on the development of explainable decision models for clinical risk prediction, carried out within the [FH-EARLY](https://fh-early.eu/) project in collaboration with clinicians at [Leiden University Medical Center (LUMC)](https://www.lumc.nl/).
 
-I enjoy working across disciplines and collaborating with researchers from diverse fields, as you can see from my CV, which you can download from the link below. 
+I enjoy working across disciplines and collaborating with researchers from diverse fields, as you can see from my CV, which you can download from the link below.
 If you are interested in working together, feel free to reach out.
-
-

@@ -779,7 +779,10 @@ footer.sticky-bottom {
         var(--global-card-bg-color) 100%
       );
       box-shadow: 0 14px 36px rgba(15, 23, 42, 0.035);
-      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+      transition:
+        transform 0.16s ease,
+        box-shadow 0.16s ease,
+        border-color 0.16s ease;
 
       &:hover {
         transform: translateY(-2px);
@@ -891,7 +894,11 @@ footer.sticky-bottom {
           margin-left: 0;
           font-size: 0.72rem;
           letter-spacing: 0.02em;
-          transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
+          transition:
+            color 0.15s ease,
+            border-color 0.15s ease,
+            background-color 0.15s ease,
+            transform 0.15s ease;
 
           &:hover {
             color: var(--global-theme-color);
@@ -996,7 +1003,10 @@ footer.sticky-bottom {
   border-radius: 999px;
   padding: 0.8rem 1rem;
   box-shadow: rgba(15, 23, 42, 0.04) 0px 6px 16px;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
 
   &:focus {
     border-color: color-mix(in srgb, var(--global-theme-color) 55%, var(--global-card-bg-color) 45%) !important;
