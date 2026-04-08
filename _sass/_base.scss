@@ -716,13 +716,17 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
 
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+    letter-spacing: -0.02em;
   }
 
   h2 {
@@ -735,13 +739,28 @@ footer.sticky-bottom {
 
   h2.bibliography {
     color: color-mix(in srgb, var(--global-text-color) 88%, var(--global-theme-color) 12%);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1.25rem;
-    margin-top: 2.75rem;
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 3rem;
+    margin-bottom: 1.1rem;
     text-align: left;
-    font-size: 1.35rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    position: sticky;
+    top: 5.4rem;
+    z-index: 4;
+
+    span {
+      display: inline-flex;
+      align-items: center;
+      min-width: 4.5rem;
+      padding: 0.42rem 0.85rem;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--global-card-bg-color) 90%, var(--global-theme-color) 10%);
+      border: 1px solid color-mix(in srgb, var(--global-divider-color) 60%, var(--global-theme-color) 40%);
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
+    }
   }
 
   ol.bibliography {
@@ -750,32 +769,49 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 0;
-      padding: 1.35rem 0 1.5rem;
-      border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 90%, var(--global-theme-color) 10%);
+      margin-bottom: 1rem;
+      padding: 1.1rem 1.25rem 1.2rem;
+      border: 1px solid color-mix(in srgb, var(--global-divider-color) 88%, var(--global-theme-color) 12%);
+      border-radius: 1.15rem;
+      background: linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--global-card-bg-color) 96%, var(--global-theme-color) 4%) 0%,
+        var(--global-card-bg-color) 100%
+      );
+      box-shadow: 0 14px 36px rgba(15, 23, 42, 0.035);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+        border-color: color-mix(in srgb, var(--global-divider-color) 55%, var(--global-theme-color) 45%);
+      }
 
       .publication-entry {
         align-items: flex-start;
         row-gap: 0.75rem;
+        column-gap: 1rem;
       }
 
       .abbr {
         margin-bottom: 0.5rem;
-        padding-top: 0.15rem;
+        padding-top: 0.1rem;
+        min-width: 5.2rem;
 
         .publication-venue {
           --publication-venue-color: var(--global-theme-color);
-          display: inline-block;
-          width: auto;
+          display: inline-flex;
+          justify-content: center;
+          width: 100%;
           min-width: 0;
           background-color: color-mix(in srgb, var(--publication-venue-color) 8%, var(--global-card-bg-color) 92%);
           border: 1px solid color-mix(in srgb, var(--publication-venue-color) 28%, var(--global-card-bg-color) 72%);
           margin-bottom: 0.5rem;
-          padding: 0.35rem 0.75rem;
+          padding: 0.42rem 0.75rem;
           color: color-mix(in srgb, var(--publication-venue-color) 68%, var(--global-text-color) 32%) !important;
-          font-size: 0.72rem;
+          font-size: 0.7rem;
           font-weight: 700;
-          letter-spacing: 0.08em;
+          letter-spacing: 0.1em;
           text-transform: uppercase;
 
           a {
@@ -794,17 +830,19 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-size: 1.1rem;
-        line-height: 1.4;
-        font-weight: 600;
+        font-size: 1.14rem;
+        line-height: 1.45;
+        font-weight: 650;
         color: var(--global-text-color);
-        margin-bottom: 0.35rem;
+        margin-bottom: 0.45rem;
+        letter-spacing: -0.01em;
       }
 
       .author {
-        margin-bottom: 0.35rem;
+        margin-bottom: 0.5rem;
         color: color-mix(in srgb, var(--global-text-color-light) 92%, var(--global-text-color) 8%);
-        line-height: 1.6;
+        line-height: 1.7;
+        font-size: 0.95rem;
 
         a {
           color: inherit;
@@ -821,35 +859,25 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
-
-        > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
-          cursor: pointer;
-
-          &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
-          }
-        }
       }
 
       .periodical {
         color: color-mix(in srgb, var(--global-text-color) 82%, var(--global-theme-color) 18%);
         line-height: 1.55;
+        font-size: 0.95rem;
       }
 
       .publication-note {
         color: color-mix(in srgb, var(--global-text-color-light) 94%, var(--global-text-color) 6%);
         font-size: 0.94rem;
-        margin-top: 0.15rem;
+        margin-top: 0.25rem;
       }
 
       .links {
         display: flex;
         flex-wrap: wrap;
         gap: 0.55rem;
-        margin-top: 0.9rem;
+        margin-top: 1rem;
 
         a.btn {
           color: color-mix(in srgb, var(--global-text-color-light) 92%, var(--global-text-color) 8%);
@@ -891,7 +919,8 @@ footer.sticky-bottom {
       }
 
       .badges {
-        padding-bottom: 0.5rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
         span {
           display: inline-block;
           color: $black-color;
@@ -1054,6 +1083,32 @@ html.transition *:after {
 
       &:hover {
         color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .publications {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h2.bibliography {
+      top: 4.8rem;
+      font-size: 1.5rem;
+      margin-top: 2.25rem;
+    }
+
+    ol.bibliography li {
+      padding: 1rem;
+
+      .abbr {
+        min-width: 0;
+
+        .publication-venue {
+          width: auto;
+        }
       }
     }
   }
