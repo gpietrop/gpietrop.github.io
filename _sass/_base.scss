@@ -725,7 +725,7 @@ footer.sticky-bottom {
     font-size: 2rem;
     text-align: left;
     margin-top: 0.5em;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.5em;
     letter-spacing: -0.02em;
   }
 
@@ -741,10 +741,10 @@ footer.sticky-bottom {
     color: color-mix(in srgb, var(--global-text-color) 88%, var(--global-theme-color) 12%);
     border-top: 0;
     padding-top: 0;
-    margin-top: 3rem;
-    margin-bottom: 1.1rem;
+    margin-top: 2.4rem;
+    margin-bottom: 0.8rem;
     text-align: left;
-    font-size: 1.8rem;
+    font-size: 1.55rem;
     font-weight: 700;
     letter-spacing: -0.03em;
     position: sticky;
@@ -755,7 +755,7 @@ footer.sticky-bottom {
       display: inline-flex;
       align-items: center;
       min-width: 4.5rem;
-      padding: 0.42rem 0.85rem;
+      padding: 0.32rem 0.72rem;
       border-radius: 999px;
       background: color-mix(in srgb, var(--global-card-bg-color) 90%, var(--global-theme-color) 10%);
       border: 1px solid color-mix(in srgb, var(--global-divider-color) 60%, var(--global-theme-color) 40%);
@@ -769,8 +769,8 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
-      padding: 1.1rem 1.25rem 1.2rem;
+      margin-bottom: 0.75rem;
+      padding: 0.9rem 1rem 0.95rem;
       border: 1px solid color-mix(in srgb, var(--global-divider-color) 88%, var(--global-theme-color) 12%);
       border-radius: 1.15rem;
       background: linear-gradient(
@@ -789,14 +789,14 @@ footer.sticky-bottom {
 
       .publication-entry {
         align-items: flex-start;
-        row-gap: 0.75rem;
-        column-gap: 1rem;
+        row-gap: 0.55rem;
+        column-gap: 0.85rem;
       }
 
       .abbr {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.35rem;
         padding-top: 0.1rem;
-        min-width: 5.2rem;
+        min-width: 4.7rem;
 
         .publication-venue {
           --publication-venue-color: var(--global-theme-color);
@@ -806,12 +806,12 @@ footer.sticky-bottom {
           min-width: 0;
           background-color: color-mix(in srgb, var(--publication-venue-color) 8%, var(--global-card-bg-color) 92%);
           border: 1px solid color-mix(in srgb, var(--publication-venue-color) 28%, var(--global-card-bg-color) 72%);
-          margin-bottom: 0.5rem;
-          padding: 0.42rem 0.75rem;
+          margin-bottom: 0.35rem;
+          padding: 0.3rem 0.62rem;
           color: color-mix(in srgb, var(--publication-venue-color) 68%, var(--global-text-color) 32%) !important;
-          font-size: 0.7rem;
+          font-size: 0.64rem;
           font-weight: 700;
-          letter-spacing: 0.1em;
+          letter-spacing: 0.08em;
           text-transform: uppercase;
 
           a {
@@ -830,19 +830,19 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-size: 1.14rem;
-        line-height: 1.45;
+        font-size: 1rem;
+        line-height: 1.36;
         font-weight: 650;
         color: var(--global-text-color);
-        margin-bottom: 0.45rem;
+        margin-bottom: 0.28rem;
         letter-spacing: -0.01em;
       }
 
       .author {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.28rem;
         color: color-mix(in srgb, var(--global-text-color-light) 92%, var(--global-text-color) 8%);
-        line-height: 1.7;
-        font-size: 0.95rem;
+        line-height: 1.5;
+        font-size: 0.86rem;
 
         a {
           color: inherit;
@@ -863,33 +863,33 @@ footer.sticky-bottom {
 
       .periodical {
         color: color-mix(in srgb, var(--global-text-color) 82%, var(--global-theme-color) 18%);
-        line-height: 1.55;
-        font-size: 0.95rem;
+        line-height: 1.42;
+        font-size: 0.86rem;
       }
 
       .publication-note {
         color: color-mix(in srgb, var(--global-text-color-light) 94%, var(--global-text-color) 6%);
-        font-size: 0.94rem;
-        margin-top: 0.25rem;
+        font-size: 0.84rem;
+        margin-top: 0.18rem;
       }
 
       .links {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.55rem;
-        margin-top: 1rem;
+        gap: 0.42rem;
+        margin-top: 0.72rem;
 
         a.btn {
           color: color-mix(in srgb, var(--global-text-color-light) 92%, var(--global-text-color) 8%);
           border: 1px solid color-mix(in srgb, var(--global-divider-color) 75%, var(--global-theme-color) 25%);
           border-radius: 999px;
           background: color-mix(in srgb, var(--global-card-bg-color) 97%, var(--global-theme-color) 3%);
-          padding-left: 0.85rem;
-          padding-right: 0.85rem;
-          padding-top: 0.35rem;
-          padding-bottom: 0.35rem;
+          padding-left: 0.68rem;
+          padding-right: 0.68rem;
+          padding-top: 0.24rem;
+          padding-bottom: 0.24rem;
           margin-left: 0;
-          font-size: 0.78rem;
+          font-size: 0.72rem;
           letter-spacing: 0.02em;
           transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease, transform 0.15s ease;
 
@@ -919,8 +919,8 @@ footer.sticky-bottom {
       }
 
       .badges {
-        padding-top: 0.2rem;
-        padding-bottom: 0.2rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
         span {
           display: inline-block;
           color: $black-color;
@@ -1091,17 +1091,17 @@ html.transition *:after {
 @media (max-width: 768px) {
   .publications {
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.65rem;
     }
 
     h2.bibliography {
       top: 4.8rem;
-      font-size: 1.5rem;
-      margin-top: 2.25rem;
+      font-size: 1.35rem;
+      margin-top: 1.8rem;
     }
 
     ol.bibliography li {
-      padding: 1rem;
+      padding: 0.85rem;
 
       .abbr {
         min-width: 0;
