@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-29'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 15
@@ -22,7 +22,7 @@ papers:
     title: MACHINE LEARNING APPLICATIONS TO DATA RECONSTRUCTION IN MARINE BIOGEOCHEMISTRY.
     year: '2024'
   -iUZFA4AAAAJ:8k81kl-MbHgC:
-    citations: 13
+    citations: 14
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
@@ -30,7 +30,7 @@ papers:
     title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 36
+    citations: 38
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:HDshCWvjkbEC:
@@ -38,11 +38,11 @@ papers:
     title: 'Two-phase CNN for model data fusion: Predicting 3D chlorophyll-a in the Mediterranean Sea'
     year: '2026'
   -iUZFA4AAAAJ:IWHjjKOFINEC:
-    citations: 3
+    citations: 4
     title: Policy Search through Genetic Programming and LLM-assisted Curriculum Learning
     year: '2025'
   -iUZFA4AAAAJ:KlAtU1dfN6UC:
-    citations: 3
+    citations: 4
     title: Genetic Programming for the Reconstruction of Delay Differential Equations in Economics
     year: '2024'
   -iUZFA4AAAAJ:L8Ckcad2t8MC:
@@ -58,7 +58,7 @@ papers:
     title: Convolutional neural networks for chlorophyll prediction in the Mediterranean Sea
     year: '2025'
   -iUZFA4AAAAJ:MXK_kJrjxJIC:
-    citations: 9
+    citations: 11
     title: Combining neural networks and data assimilation to enhance the spatial impact of Argo floats in the Copernicus Mediterranean biogeochemical model
     year: '2024'
   -iUZFA4AAAAJ:QIV2ME_5wuYC:
@@ -69,16 +69,12 @@ papers:
     citations: 0
     title: Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent [Poster]
     year: '2023'
-  -iUZFA4AAAAJ:RHpTSmoSYBkC:
-    citations: 0
-    title: Automated specification search for composite-based structural equation modeling
-    year: '2026'
   -iUZFA4AAAAJ:Se3iqnhoufwC:
     citations: 1
     title: Machine Learning methods for the Atmosphere, the Ocean, and the Seabed.
     year: '2023'
   -iUZFA4AAAAJ:Tyk-4Ss8FVUC:
-    citations: 10
+    citations: 11
     title: "A self-adaptive approach to exploit topological properties of different gas\u2019 crossover operators"
     year: '2023'
   -iUZFA4AAAAJ:ULOm3_A8WrAC:
@@ -146,7 +142,7 @@ papers:
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
-    citations: 21
+    citations: 23
     title: Large language model-based test case generation for gp agents
     year: '2024'
   -iUZFA4AAAAJ:mB3voiENLucC:
@@ -158,7 +154,7 @@ papers:
     title: Semantic-based recombination and mutation in cellular-inspired genetic programming
     year: '2025'
   -iUZFA4AAAAJ:roLk4NBRz8UC:
-    citations: 11
+    citations: 12
     title: 'A grammatical evolution approach to the automatic inference of P systems: G. Nadizar, G. Pietropolli'
     year: '2023'
   -iUZFA4AAAAJ:ufrVoPGSRksC:
