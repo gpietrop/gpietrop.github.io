@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-06-26'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
-    citations: 14
+    citations: 16
     title: On the hybridization of geometric semantic GP with gradient-based optimizers
     year: '2023'
   -iUZFA4AAAAJ:2osOgNQ5qMEC:
-    citations: 4
+    citations: 5
     title: The effect of multi-generational selection in geometric semantic genetic programming
     year: '2022'
   -iUZFA4AAAAJ:3fE2CSJIrl8C:
@@ -26,15 +26,15 @@ papers:
     title: MACHINE LEARNING APPLICATIONS TO DATA RECONSTRUCTION IN MARINE BIOGEOCHEMISTRY.
     year: '2024'
   -iUZFA4AAAAJ:8k81kl-MbHgC:
-    citations: 13
+    citations: 14
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
-    citations: 4
+    citations: 8
     title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 37
+    citations: 38
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:HDshCWvjkbEC:
@@ -42,7 +42,7 @@ papers:
     title: 'Two-phase CNN for model data fusion: Predicting 3D chlorophyll-a in the Mediterranean Sea'
     year: '2026'
   -iUZFA4AAAAJ:IWHjjKOFINEC:
-    citations: 7
+    citations: 8
     title: Policy Search through Genetic Programming and LLM-assisted Curriculum Learning
     year: '2025'
   -iUZFA4AAAAJ:KlAtU1dfN6UC:
@@ -50,11 +50,11 @@ papers:
     title: Genetic Programming for the Reconstruction of Delay Differential Equations in Economics
     year: '2024'
   -iUZFA4AAAAJ:L8Ckcad2t8MC:
-    citations: 2
+    citations: 4
     title: A study on the dynamics and effectiveness of the deflate geometric semantic mutation
     year: '2025'
   -iUZFA4AAAAJ:LkGwnXOMwfcC:
-    citations: 13
+    citations: 15
     title: Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent.
     year: '2023'
   -iUZFA4AAAAJ:M3ejUd6NZC8C:
@@ -78,7 +78,7 @@ papers:
     title: Machine Learning methods for the Atmosphere, the Ocean, and the Seabed.
     year: '2023'
   -iUZFA4AAAAJ:Tyk-4Ss8FVUC:
-    citations: 10
+    citations: 11
     title: "A self-adaptive approach to exploit topological properties of different gas\u2019 crossover operators"
     year: '2023'
   -iUZFA4AAAAJ:ULOm3_A8WrAC:
@@ -90,7 +90,7 @@ papers:
     title: GANs for integration of deterministic model and observations in marine ecosystem
     year: '2022'
   -iUZFA4AAAAJ:Wp0gIr-vW9MC:
-    citations: 2
+    citations: 3
     title: Exploring the impact of data scale on mutation step size in SLIM-GSGP
     year: '2025'
   -iUZFA4AAAAJ:Y0pCki6q_DkC:
@@ -118,11 +118,11 @@ papers:
     title: A Global Machine Learning Modelfor BGC-Argo Profile Prediction
     year: '2026'
   -iUZFA4AAAAJ:_kc_bZDykSQC:
-    citations: 19
+    citations: 20
     title: Exploring non-bloating geometric semantic genetic programming
     year: '2025'
   -iUZFA4AAAAJ:aqlVkmm33-oC:
-    citations: 8
+    citations: 11
     title: Introducing crossover in slim-gsgp
     year: '2025'
   -iUZFA4AAAAJ:dhFuZR0502QC:
@@ -142,7 +142,7 @@ papers:
     title: A novel bio-inspired encoding for evolving cryptographic Boolean functions
     year: '2026'
   -iUZFA4AAAAJ:hqOjcs7Dif8C:
-    citations: 4
+    citations: 5
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
@@ -154,11 +154,11 @@ papers:
     title: 'Automated specification search for composite-based structural equation modeling: A genetic approach'
     year: '2026'
   -iUZFA4AAAAJ:qUcmZB5y_30C:
-    citations: 0
+    citations: 1
     title: Semantic-based recombination and mutation in cellular-inspired genetic programming
     year: '2025'
   -iUZFA4AAAAJ:roLk4NBRz8UC:
-    citations: 12
+    citations: 13
     title: 'A grammatical evolution approach to the automatic inference of P systems: G. Nadizar, G. Pietropolli'
     year: '2023'
   -iUZFA4AAAAJ:ufrVoPGSRksC:
