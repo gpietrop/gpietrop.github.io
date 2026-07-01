@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-07-01'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 16
@@ -94,7 +94,7 @@ papers:
     title: Exploring the impact of data scale on mutation step size in SLIM-GSGP
     year: '2025'
   -iUZFA4AAAAJ:Y0pCki6q_DkC:
-    citations: 11
+    citations: 12
     title: Multivariate relationship in big data collection of ocean observing system
     year: '2023'
   -iUZFA4AAAAJ:YOwf2qJgpHMC:
@@ -146,7 +146,7 @@ papers:
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
-    citations: 24
+    citations: 25
     title: Large language model-based test case generation for gp agents
     year: '2024'
   -iUZFA4AAAAJ:mB3voiENLucC:
