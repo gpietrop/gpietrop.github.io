@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-08'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 16
@@ -43,8 +43,8 @@ papers:
     year: '2026'
   -iUZFA4AAAAJ:IWHjjKOFINEC:
     citations: 8
-    title: Policy Search through Genetic Programming and LLM-assisted Curriculum Learning
-    year: '2025'
+    title: Policy search through genetic programming and LLM-assisted curriculum learning
+    year: '2026'
   -iUZFA4AAAAJ:KlAtU1dfN6UC:
     citations: 4
     title: Genetic Programming for the Reconstruction of Delay Differential Equations in Economics
