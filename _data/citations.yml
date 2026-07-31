@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-31'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 16
@@ -14,7 +14,7 @@ papers:
     title: The role of the substrate in ca-based evolutionary algorithms
     year: '2024'
   -iUZFA4AAAAJ:4DMP91E08xMC:
-    citations: 3
+    citations: 4
     title: Exploring the integration of cellular structures in genetic programming-based methods
     year: '2025'
   -iUZFA4AAAAJ:4JMBOYKVnBMC:
@@ -26,11 +26,11 @@ papers:
     title: MACHINE LEARNING APPLICATIONS TO DATA RECONSTRUCTION IN MARINE BIOGEOCHEMISTRY.
     year: '2024'
   -iUZFA4AAAAJ:8k81kl-MbHgC:
-    citations: 15
+    citations: 16
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
-    citations: 9
+    citations: 10
     title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
@@ -90,7 +90,7 @@ papers:
     title: GANs for integration of deterministic model and observations in marine ecosystem
     year: '2022'
   -iUZFA4AAAAJ:Wp0gIr-vW9MC:
-    citations: 4
+    citations: 5
     title: Exploring the impact of data scale on mutation step size in SLIM-GSGP
     year: '2025'
   -iUZFA4AAAAJ:Y0pCki6q_DkC:
@@ -118,7 +118,7 @@ papers:
     title: A Global Machine Learning Modelfor BGC-Argo Profile Prediction
     year: '2026'
   -iUZFA4AAAAJ:_kc_bZDykSQC:
-    citations: 21
+    citations: 22
     title: Exploring non-bloating geometric semantic genetic programming
     year: '2025'
   -iUZFA4AAAAJ:aqlVkmm33-oC:
@@ -145,6 +145,10 @@ papers:
     citations: 5
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
+  -iUZFA4AAAAJ:j3f4tGmQtD8C:
+    citations: 0
+    title: 'AGAS-PLS: A Genetic Algorithm for automated structural model specification in composite-based SEM'
+    year: '2026'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
     citations: 26
     title: Large language model-based test case generation for gp agents
@@ -158,7 +162,7 @@ papers:
     title: Semantic-based recombination and mutation in cellular-inspired genetic programming
     year: '2025'
   -iUZFA4AAAAJ:roLk4NBRz8UC:
-    citations: 13
+    citations: 14
     title: 'A grammatical evolution approach to the automatic inference of P systems: G. Nadizar, G. Pietropolli'
     year: '2023'
   -iUZFA4AAAAJ:ufrVoPGSRksC:
