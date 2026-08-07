@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-07'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
-    citations: 16
+    citations: 17
     title: On the hybridization of geometric semantic GP with gradient-based optimizers
     year: '2023'
   -iUZFA4AAAAJ:2osOgNQ5qMEC:
@@ -26,15 +26,15 @@ papers:
     title: MACHINE LEARNING APPLICATIONS TO DATA RECONSTRUCTION IN MARINE BIOGEOCHEMISTRY.
     year: '2024'
   -iUZFA4AAAAJ:8k81kl-MbHgC:
-    citations: 16
+    citations: 17
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
     citations: 10
-    title: 'Slim_gsgp: A Python Library for Non-Bloating GSGP'
+    title: 'Slim_gsgp: a python library for non-bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 38
+    citations: 37
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:HDshCWvjkbEC:
@@ -47,7 +47,7 @@ papers:
     year: '2026'
   -iUZFA4AAAAJ:KlAtU1dfN6UC:
     citations: 4
-    title: Genetic Programming for the Reconstruction of Delay Differential Equations in Economics
+    title: Genetic programming for the reconstruction of delay differential equations in economics
     year: '2024'
   -iUZFA4AAAAJ:L8Ckcad2t8MC:
     citations: 4
@@ -67,7 +67,7 @@ papers:
     year: '2024'
   -iUZFA4AAAAJ:QIV2ME_5wuYC:
     citations: 2
-    title: Evolving Cryptographic Boolean Functions with Reaction Systems
+    title: Evolving cryptographic boolean functions with reaction systems
     year: '2025'
   -iUZFA4AAAAJ:R3hNpaxXUhUC:
     citations: 0
@@ -103,7 +103,7 @@ papers:
     year: '2025'
   -iUZFA4AAAAJ:ZeXyd9-uunAC:
     citations: 2
-    title: 'GLOBIO: Bridging Global and Local Scales for Biogeochemical Profiles Prediction'
+    title: 'GLOBIO: Bridging global and local scales for biogeochemical profiles prediction'
     year: '2025'
   -iUZFA4AAAAJ:Zph67rFs4hoC:
     citations: 3
@@ -127,7 +127,7 @@ papers:
     year: '2025'
   -iUZFA4AAAAJ:dhFuZR0502QC:
     citations: 1
-    title: Learning the Particle Swarm Optimization Velocity Update via Genetic Programming
+    title: Learning the particle swarm optimization velocity update VIA genetic programming
     year: '2025'
   -iUZFA4AAAAJ:e5wmG9Sq2KIC:
     citations: 0
@@ -135,14 +135,14 @@ papers:
     year: '2026'
   -iUZFA4AAAAJ:hC7cP41nSMkC:
     citations: 0
-    title: Constructing Cryptographic Primitives with Evolutionary Computation and Cellular Automata
+    title: Constructing cryptographic primitives with evolutionary computation and cellular automata.
     year: '2025'
   -iUZFA4AAAAJ:hFOr9nPyWt4C:
     citations: 0
     title: A novel bio-inspired encoding for evolving cryptographic Boolean functions
     year: '2026'
   -iUZFA4AAAAJ:hqOjcs7Dif8C:
-    citations: 5
+    citations: 4
     title: 'PPCon 1.0: Biogeochemical argo profile prediction with 1D convolutional networks'
     year: '2023'
   -iUZFA4AAAAJ:j3f4tGmQtD8C:
