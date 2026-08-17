@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-17'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 17
@@ -34,7 +34,7 @@ papers:
     title: 'Slim_gsgp: a python library for non-bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
-    citations: 37
+    citations: 38
     title: Combining geometric semantic gp with gradient-descent optimization
     year: '2022'
   -iUZFA4AAAAJ:HDshCWvjkbEC:
@@ -50,7 +50,7 @@ papers:
     title: Genetic programming for the reconstruction of delay differential equations in economics
     year: '2024'
   -iUZFA4AAAAJ:L8Ckcad2t8MC:
-    citations: 4
+    citations: 5
     title: A study on the dynamics and effectiveness of the deflate geometric semantic mutation
     year: '2025'
   -iUZFA4AAAAJ:LkGwnXOMwfcC:
@@ -150,7 +150,7 @@ papers:
     title: 'AGAS-PLS: A Genetic Algorithm for automated structural model specification in composite-based SEM'
     year: '2026'
   -iUZFA4AAAAJ:kNdYIx-mwKoC:
-    citations: 26
+    citations: 27
     title: Large language model-based test case generation for gp agents
     year: '2024'
   -iUZFA4AAAAJ:mB3voiENLucC:
