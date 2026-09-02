@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-09-02'
 papers:
   -iUZFA4AAAAJ:0EnyYjriUFMC:
     citations: 17
@@ -30,7 +30,7 @@ papers:
     title: Automatic design of interpretable control laws through parametrized Genetic Programming with adjoint state method gradient evaluation
     year: '2024'
   -iUZFA4AAAAJ:9ZlFYXVOiuMC:
-    citations: 11
+    citations: 13
     title: 'Slim_gsgp: a python library for non-bloating GSGP'
     year: '2025'
   -iUZFA4AAAAJ:9yKSN-GCB0IC:
@@ -50,11 +50,11 @@ papers:
     title: Genetic programming for the reconstruction of delay differential equations in economics
     year: '2024'
   -iUZFA4AAAAJ:L8Ckcad2t8MC:
-    citations: 6
+    citations: 7
     title: A study on the dynamics and effectiveness of the deflate geometric semantic mutation
     year: '2025'
   -iUZFA4AAAAJ:LkGwnXOMwfcC:
-    citations: 16
+    citations: 17
     title: Parametrizing GP Trees for Better Symbolic Regression Performance through Gradient Descent.
     year: '2023'
   -iUZFA4AAAAJ:M3ejUd6NZC8C:
@@ -90,7 +90,7 @@ papers:
     title: GANs for integration of deterministic model and observations in marine ecosystem
     year: '2022'
   -iUZFA4AAAAJ:Wp0gIr-vW9MC:
-    citations: 5
+    citations: 6
     title: Exploring the impact of data scale on mutation step size in SLIM-GSGP
     year: '2025'
   -iUZFA4AAAAJ:Y0pCki6q_DkC:
@@ -118,7 +118,7 @@ papers:
     title: A Global Machine Learning Modelfor BGC-Argo Profile Prediction
     year: '2026'
   -iUZFA4AAAAJ:_kc_bZDykSQC:
-    citations: 22
+    citations: 25
     title: Exploring non-bloating geometric semantic genetic programming
     year: '2025'
   -iUZFA4AAAAJ:aqlVkmm33-oC:
@@ -138,7 +138,7 @@ papers:
     title: Constructing cryptographic primitives with evolutionary computation and cellular automata.
     year: '2025'
   -iUZFA4AAAAJ:hFOr9nPyWt4C:
-    citations: 0
+    citations: 1
     title: A novel bio-inspired encoding for evolving cryptographic Boolean functions
     year: '2026'
   -iUZFA4AAAAJ:hqOjcs7Dif8C:
@@ -158,8 +158,12 @@ papers:
     title: 'Automated specification search for composite-based structural equation modeling: A genetic approach'
     year: '2026'
   -iUZFA4AAAAJ:qUcmZB5y_30C:
-    citations: 1
+    citations: 2
     title: Semantic-based recombination and mutation in cellular-inspired genetic programming
+    year: '2025'
+  -iUZFA4AAAAJ:r0BpntZqJG4C:
+    citations: 0
+    title: Evolutionary Boolean Reaction Systems (EvoBRS)
     year: '2025'
   -iUZFA4AAAAJ:roLk4NBRz8UC:
     citations: 14
